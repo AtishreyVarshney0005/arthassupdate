@@ -19,6 +19,10 @@ import clientLogo25 from "../../Logo/25.jpg";
 import clientLogo51 from "../../Logo/51.webp";
 import clientLogo52 from "../../Logo/52.webp";
 import clientLogo53 from "../../Logo/53.webp";
+import clientLogo101 from "../../Logo/101.jpeg";
+import clientLogo102 from "../../Logo/102.png";
+import clientLogo103 from "../../Logo/103.png";
+import clientLogo104 from "../../Logo/104.jpeg";
 
 const clientLogos = [
   clientLogo1,
@@ -39,6 +43,10 @@ const clientLogos = [
   clientLogo51,
   clientLogo52,
   clientLogo53,
+  clientLogo101,
+  clientLogo102,
+  clientLogo103,
+  clientLogo104,
 ];
 
 const metrics = [
