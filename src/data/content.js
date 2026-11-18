@@ -1,3 +1,13 @@
+import educationImage from "../../Education.png";
+import hospitalityImage from "../../Toursism.png";
+import realEstateImage from "../../Real State.png";
+import textileImage from "../../Textile.png";
+import jewelleryImage from "../../Jwellwery.png";
+import solarImage from "../../Solar Power.png";
+import itImage from "../../it.png";
+import pharmaceuticalImage from "../../Pharmacueticals.png";
+import foodImage from "../../food.png";
+
 export const site = {
   name: "ARTHASS",
   descriptor: "Digital Growth & Creative",
@@ -89,15 +99,15 @@ export const industries = {
   sub: "We create focused strategy, production and digital growth capabilities for organisations across specialised industries.",
   cta: "Discuss a project",
   items: [
-    { title: "Education Growth Marketing", tags: "Strategy | Creative | Digital", image: "Education.png", tone: "violet" },
-    { title: "Hospitality & Tourism", tags: "Strategy | Creative | Marketing", image: "Toursism.png", tone: "green" },
-    { title: "Real Estate Marketing", tags: "Design | Development | Marketing", image: "Real State.png", tone: "red" },
-    { title: "Textile", tags: "Design | Manufacturing | Innovation", image: "Textile.png", tone: "violet" },
-    { title: "Jewellery", tags: "Design | Craftsmanship | Luxury", image: "Jwellwery.png", tone: "red" },
-    { title: "Solar Power", tags: "Clean Energy | Sustainability | Green Future", image: "Solar Power.png", tone: "green" },
-    { title: "IT", tags: "Software | Cloud | Digital Solutions", image: "IT.png", tone: "violet" },
-    { title: "Pharmaceutical", tags: "Healthcare | Research | Better Life", image: "Pharmacueticals.png", tone: "cyan" },
-    { title: "Food", tags: "Nutrition | Quality | Healthy Living", image: "Food.png", tone: "green" },
+    { title: "Education Growth Marketing", tags: "Strategy | Creative | Digital", image: educationImage, tone: "violet" },
+    { title: "Hospitality & Tourism", tags: "Strategy | Creative | Marketing", image: hospitalityImage, tone: "green" },
+    { title: "Real Estate Marketing", tags: "Design | Development | Marketing", image: realEstateImage, tone: "red" },
+    { title: "Textile", tags: "Design | Manufacturing | Innovation", image: textileImage, tone: "violet" },
+    { title: "Jewellery", tags: "Design | Craftsmanship | Luxury", image: jewelleryImage, tone: "red" },
+    { title: "Solar Power", tags: "Clean Energy | Sustainability | Green Future", image: solarImage, tone: "green" },
+    { title: "IT", tags: "Software | Cloud | Digital Solutions", image: itImage, tone: "violet" },
+    { title: "Pharmaceutical", tags: "Healthcare | Research | Better Life", image: pharmaceuticalImage, tone: "cyan" },
+    { title: "Food", tags: "Nutrition | Quality | Healthy Living", image: foodImage, tone: "green" },
   ],
 };
 
