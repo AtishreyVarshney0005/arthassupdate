@@ -923,7 +923,12 @@ body { background: #fffdfa; }
   font-weight: 600;
   letter-spacing: .12em;
 }
-.work-meta { padding: 20px 20px 19px; gap: 0; }
+.work-meta {
+  flex: 1;
+  min-height: 108px;
+  padding: 20px 20px 19px;
+  gap: 0;
+}
 .work-meta-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
 .work-meta h3 { font-size: 16px; line-height: 1.4; }
 .work-card-arrow {
@@ -968,7 +973,7 @@ body { background: #fffdfa; }
 .work-cta .btn { flex: 0 0 auto; }
 @media (max-width: 640px) {
   .work-grid { grid-template-columns: 1fr; gap: 16px; }
-  .work-img { height: 205px; }
+  .work-img { height: 224px; flex-basis: 224px; }
   .work-meta { padding: 18px; }
   .work-meta h3 { font-size: 15px; }
   .work-cta { flex-direction: column; align-items: stretch; gap: 14px; margin-top: 20px; padding: 18px; }

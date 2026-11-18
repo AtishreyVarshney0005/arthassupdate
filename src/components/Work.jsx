@@ -122,7 +122,7 @@ export default function Work({ projects = industries.items }) {
                   {p.image && (
                     <img
                       className="work-card-image"
-                      src={`${p.image}?v=11`}
+                      src={`${p.image}?v=12`}
                       alt={`${p.title} industry`}
                       loading="lazy"
                       decoding="async"
