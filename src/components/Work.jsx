@@ -115,12 +115,19 @@ export default function Work({ projects = industries.items }) {
               <article key={p.title} className="work-card" data-reveal="up" data-reveal-order={index}>
                 <div
                   className={`work-img tone-bg-${p.tone || "violet"}${p.image ? " has-image" : ""}`}
-                  style={p.image ? { backgroundImage: `url(${p.image})` } : undefined}
                   role="img"
                   aria-label={`${p.title} industry illustration`}
                 >
                   {!p.image && <IndustryArtwork scene={p.scene} />}
-                  <span className="work-image-index">{String(index + 1).padStart(2, "0")}</span>
+                  {p.image && (
+                    <img
+                      className="work-card-image"
+                      src={`${p.image}?v=11`}
+                      alt={`${p.title} industry`}
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  )}
                 </div>
                 <div className="work-meta">
                   <div className="work-meta-heading">

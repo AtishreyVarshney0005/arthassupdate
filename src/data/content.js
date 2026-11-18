@@ -1,6 +1,3 @@
-// All copy comes from "ARTHASS Full Website Copy-Paste Content Pack" (v1.0).
-// Keep every string editable here (or later move to a CMS / API).
-
 export const site = {
   name: "ARTHASS",
   descriptor: "Digital Growth & Creative",
@@ -11,14 +8,14 @@ export const site = {
     facebook: "https://www.facebook.com/share/1VNBVPMx3A/",
     instagram: "https://www.instagram.com/arthass.digital?exln=aHp3YmV4MXdjaHpn",
     linkedin: "https://www.linkedin.com/company/arthass/",
-    youtube: "#", // [OFFICIAL YOUTUBE URL]
+    youtube: "#", 
   },
   contact: {
     phone: "+91 9149104660",
     email: "contact@arthass.com",
-    whatsapp: "", // [WHATSAPP LINK]
+    whatsapp: "", 
     serviceArea: "Mathura and Agra; remote projects considered where suitable.",
-    hours: "", // [CONFIRMED BUSINESS HOURS]
+    hours: "", 
   },
 };
 
@@ -87,22 +84,23 @@ export const services = {
   ],
 };
 
-// The content pack says: do NOT invent client names, case studies or results.
-// So this section shows the industries ARTHASS serves. When approved projects exist,
-// pass them to <Work projects={...} /> in the same shape (title, tags, image).
 export const industries = {
   heading: "Industries We Support",
-  sub: "Education is our primary focus, especially schools and colleges. We also support selected organisations in hospitality, tourism and real estate with relevant strategy, creative and digital capabilities.",
+  sub: "We create focused strategy, production and digital growth capabilities for organisations across specialised industries.",
   cta: "Discuss a project",
   items: [
-    { title: "Education Growth Marketing", tags: "Strategy | Creative | Digital", image: "/industries/education.png", scene: "education", tone: "violet" },
-    { title: "Hospitality & Tourism", tags: "Strategy | Creative | Marketing", image: "/industries/hospitality.png", scene: "hospitality", tone: "green" },
-    { title: "Real Estate Marketing", tags: "Design | Development | Marketing", image: "/industries/real-estate.png", scene: "real-estate", tone: "red" },
+    { title: "Education Growth Marketing", tags: "Strategy | Creative | Digital", image: "/industries/education.png", tone: "violet" },
+    { title: "Hospitality & Tourism", tags: "Strategy | Creative | Marketing", image: "/industries/hospitality.png", tone: "green" },
+    { title: "Real Estate Marketing", tags: "Design | Development | Marketing", image: "/industries/real-estate.png", tone: "red" },
+    { title: "Textile", tags: "Design | Manufacturing | Innovation", image: "/industries/textile.jpg", tone: "violet" },
+    { title: "Jewellery", tags: "Design | Craftsmanship | Luxury", image: "/industries/jewellery.jpg", tone: "red" },
+    { title: "Solar Power", tags: "Clean Energy | Sustainability | Green Future", image: "/industries/solar-power.jpg", tone: "green" },
+    { title: "IT", tags: "Software | Cloud | Digital Solutions", image: "/industries/it.jpg", tone: "violet" },
+    { title: "Pharmaceutical", tags: "Healthcare | Research | Better Life", image: "/industries/pharmaceutical.jpg", tone: "cyan" },
+    { title: "Food", tags: "Nutrition | Quality | Healthy Living", image: "/industries/food.jpg", tone: "green" },
   ],
 };
 
-// Empty on purpose: the pack forbids invented testimonials.
-// Add approved ones like: { name, role, quote, photo }
 export const testimonials = [];
 
 export const process = {
@@ -138,7 +136,7 @@ export const cta = {
 export const contactForm = {
   heading: "Tell us what you want your marketing to achieve.",
   intro: "Share a little about your organisation, your current challenge and the outcome you want to improve. We will review the context and determine whether there is a sensible next step.",
-  sectors: ["Education", "Hospitality & Tourism", "Real Estate", "Other"],
+  sectors: ["Education", "Hospitality & Tourism", "Real Estate", "Textile", "Jewellery", "Solar Power", "IT", "Pharmaceutical", "Food", "Other"],
   submit: "Send Enquiry",
   privacy: "Please share only information needed to understand your enquiry. Do not submit sensitive personal information or confidential records through this form.",
   draft: "Your email app should open with your enquiry. Review it and press Send there; the enquiry has not been sent yet.",

@@ -1,26 +1,7 @@
-import { useEffect, useState } from "react";
 import Icon from "./Icon";
 import { hero } from "../data/content";
 
 export default function Hero() {
-  const [typedBody, setTypedBody] = useState("");
-
-  useEffect(() => {
-    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-      setTypedBody(hero.body);
-      return undefined;
-    }
-
-    let characterIndex = 0;
-    const intervalId = window.setInterval(() => {
-      characterIndex += 1;
-      setTypedBody(hero.body.slice(0, characterIndex));
-      if (characterIndex >= hero.body.length) window.clearInterval(intervalId);
-    }, 50);
-
-    return () => window.clearInterval(intervalId);
-  }, []);
-
   return (
     <section className="hero" id="home">
       <div className="hero-bg" aria-hidden="true" />
@@ -32,9 +13,7 @@ export default function Hero() {
             <br />
             {hero.titleLine2} <span className="grad-text">{hero.titleAccent}</span>
           </h1>
-          <p className="hero-typewriter" aria-label={hero.body}>
-            <span aria-hidden="true">{typedBody}</span>
-          </p>
+          <p className="hero-typewriter">{hero.body}</p>
           <div className="hero-actions">
             <a className="btn btn-primary btn-lg" href="#contact">
               {hero.primaryCta} <Icon name="arrow" size={16} />
